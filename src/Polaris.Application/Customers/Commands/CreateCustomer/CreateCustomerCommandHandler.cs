@@ -1,9 +1,8 @@
 ﻿using MediatR;
-using Polaris.Application.Customers.Commands.CreateCustomer;
 using Polaris.Domain.Entities;
 using Polaris.Domain.Repositories;
 
-namespace Polaris.Application.Customers.Handlers.CreateCustomer
+namespace Polaris.Application.Customers.Commands.CreateCustomer
 {
     public class CreateCustomerCommandHandler : IRequestHandler<CreateCustomerCommand, Guid>
     {
